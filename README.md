@@ -130,3 +130,8 @@ echo ${RUN_TIME}
 -rw-r--r--  1 root root 501M 8月  15 16:13 weiflow-from-weiclient.log.1
 -rw-r--r--  1 root root 501M 8月  15 16:13 weiflow-from-weiclient.log.2
 ```
+
+##### future
+- rotatelogs - Piped logging program to rotate Apache logs
+- all mentioned in https://httpd.apache.org/docs/2.4/programs/rotatelogs.html will be added.
+
