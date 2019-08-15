@@ -1,4 +1,5 @@
-# anecyarn
+# suanec_rotatelogs
+# rotatelogs
 ```text
 isometric3
 
@@ -35,7 +36,33 @@ standard
 
 
 ```
-A simple yarn application framework from distributedshell by yarn examples.
+
+##### instruction 
+A simple rotatelog tool.
+there is a lots of log rotator tools for limit log file size.
+this is a simple implementations for Apache httpd rotatelogs.
+with a differences is work in yarn namenode log mode.
+that's means the oldest log was in the largest suffix file with $USER_LOG_FILE always fresh.
+
+##### main points
+- support Linux pipe operation.
+- support file size limitation.
+- support file number limitation.
+- maintain all log file in ordered with the latest log in $USER_LOG_FILE and oldest log in the largest suffix file.
+- a few faster than Apache rotatelogs. speed performance was not considered well.
+- few memory cost.
+- simple usage
+- clean dependencies by implementations in naive Python 2.7
+- light tools for log file maintaining.
+- easy code for redevelopment and bug location.
+- free use for anyone.
+
+
+##### requirement 
+python 2.7.x
+
+##### reference 
+https://httpd.apache.org/docs/2.4/programs/rotatelogs.html
 
 ##### usage
 ```
