@@ -135,3 +135,6 @@ echo ${RUN_TIME}
 - rotatelogs - Piped logging program to rotate Apache logs
 - all mentioned in https://httpd.apache.org/docs/2.4/programs/rotatelogs.html will be added.
 
+##### addition
+- all pr is welcome 
+- all comments is welcome at https://www.cnblogs.com/suanec/p/11359349.html 
