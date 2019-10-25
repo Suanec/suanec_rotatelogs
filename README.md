@@ -44,7 +44,7 @@ this is a simple implementations for Apache httpd rotatelogs.
 with a differences is work in yarn namenode log mode.
 that's means the oldest log was in the largest suffix file with $USER_LOG_FILE always fresh.
 
-##### main points
+##### features
 - support Linux pipe operation.
 - support file size limitation.
 - support file number limitation.
